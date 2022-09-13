@@ -51,15 +51,16 @@
    ![SARIMAX values to check](https://github.com/RusticHaze634/Time-Series-Room/blob/main/Images/9.%20SARIMAX%20values%20to%20check.png)
    
 ### Automated ARIMA Model
-### Validation output
+#### Validation output
 
   ![Validation output](https://github.com/RusticHaze634/Time-Series-Room/blob/main/Images/10.%20Validation%20output.png)
   
-### Data Forecasting
+#### Data Forecasting
   
    ![data Forecasting](https://github.com/RusticHaze634/Time-Series-Room/blob/main/Images/11.%20data%20Forecasting.png)
    
-### Future data sample
+#### Future data sample
 
   ![Future data sample](https://github.com/RusticHaze634/Time-Series-Room/blob/main/Images/12.%20Future%20data%20sample.png)
   
+ ***

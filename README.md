@@ -1,5 +1,7 @@
 # Time Series Room
 
+`Click on the Blue Titles to 'read more...' or 'get codes' `
+
 ## 1. [Time Series Introduction and Some Formulas](https://github.com/RusticHaze634/Time-Series-Room/blob/main/Codes/time-series.ipynb)
 
 - Pattern 

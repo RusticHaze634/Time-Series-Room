@@ -16,6 +16,9 @@
 
 ## 2. [Airline Passenger Data- Time Series Analysis and Forecasting](https://www.kaggle.com/diplod0cus/airline-passenger-data-time-series-analysis)
 
+### Data
+- Air Passengers per month. Workshop dataset.
+
 ### Sample data
 
   ![Sample of Airline Passenger Data](https://github.com/RusticHaze634/Time-Series-Room/blob/main/Images/1.%20Sample%20data.jpg)
@@ -28,9 +31,39 @@
 
   ![Decomposition](https://github.com/RusticHaze634/Time-Series-Room/blob/main/Images/3.%20Decomposition%20to%20check%20dataset%20component.png)
   
+ #### Correlation concept (-1 to +1) for ADF test graphs 
+  
+- 0 to(-0.2) and  0 to(+0.2) --> Neutral (No- correlation)
+    
+       
+- (-0.2) to (-0.6) --> weak negative correlation  
+  (+0.2) to (+0.6) --> weak positive correlation
+   
+- (-0.6) to (-1) --> Strong correlation  
+  (+0.6) to (+1) --> Strong correlation
+  
+- Bottom - negative  
+  upper - positive  
+  **The blue zone - Threshold value range - No correlation**  
+  
 ### Augmented Dickey Fuller Test 1
 
   ![Augmented Dickey Fuller Test 1](https://github.com/RusticHaze634/Time-Series-Room/blob/main/Images/4.%20Augmented%20Dickey%20Fuller%20Test%201.png)
+  
+
+  #### Info from above graph:  
+ ``` 
+  1st bottom lineplot - crossed threshold -> Indicates correlation  
+  2nd bottom lineplot - crossed threshold -> Indicates correlation
+  3rd bottom lineplot - Not crossed threshold -> Indicates no correlation  
+  --> Now we can reject all other lineplots
+  ```
+- the time we get no correlation, we stop checking then
+          
+- So we are getting **2 partial correlaion** here.    
+  (1st and 2nd bottom lineplot)   
+  
+  **Similarly, we continue test to find other required values**
   
 ### Augmented Dickey Fuller Test 2
 
